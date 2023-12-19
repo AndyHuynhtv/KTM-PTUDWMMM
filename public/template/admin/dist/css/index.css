@@ -1,0 +1,622 @@
+body {
+    background: url("/template/admin/dist/img/images/background-bg.jpg");
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.img-container {
+    position: relative;
+}
+
+.image-center {
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    z-index: 3;
+}
+
+.image-center img {
+    width: 950px;
+    height: 600px;
+}
+.img-intro {
+    position: relative;
+}
+
+.img-intro img {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    background-color: #46012b;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu1 {
+    background-color: #46012b;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu1-line-icon {
+    padding-bottom: 0;
+    display: flex;
+    position: relative;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+}
+.menu1-line-icon-contain a {
+    position: relative;
+    display: flex;
+    margin-left: 300px;
+}
+.nav-bar1 {
+    width: 100%;
+    height: 80px;
+    margin-left: -20%;
+}
+.dropdownmenu {
+    width: 250px;
+    text-align: center;
+}
+
+.dropdownmenu button {
+    border: none;
+    background-color: white;
+    margin-bottom: -20px;
+}
+.dropdownmenu button:hover {
+    background-color: (0, 0, 0);
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #b7a054;
+    font-weight: normal;
+}
+
+.nav-link span {
+    margin-top: -15px;
+}
+
+.search-bar {
+    height: 70px;
+    width: 700px;
+    background-color: #6c0829;
+    color: #b7a054;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #b7a054;
+    padding-left: 15px;
+    font-size: 22px;
+}
+::-ms-input-placeholder {
+    color: #b7a054;
+}
+::placeholder {
+    color: #b7a054;
+}
+
+.menu-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.menu-bar {
+    margin: auto;
+    width: 1550px;
+    height: 200px;
+}
+
+.input-group-text {
+    width: 70px;
+    height: 70px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background-color: #300916;
+}
+
+.navbar-brand i {
+    color: #b7a054;
+    font-size: 50px;
+}
+
+.ss-button,
+.wish-button {
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    height: 70px;
+    margin-left: 5px;
+    background-color: #46012b;
+    border: none;
+}
+
+.ss-button:hover {
+    border: 0.5px solid;
+}
+
+.extra-icon {
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: #b7a054;
+}
+
+.menu-note {
+    display: flex;
+    flex-direction: column;
+}
+
+.abow-content {
+    color: #b7a054;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    opacity: 0.6;
+}
+
+.below-content {
+    color: #b7a054;
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.wine {
+    width: 100%;
+    background-color: #b7a054;
+}
+.navbar-wine {
+    display: flex;
+    width: 1200px;
+    height: 90px;
+    background-color: none;
+    margin: auto;
+    margin-top: -30px;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-wine-content-1,
+.navbar-wine-content-2,
+.navbar-wine-content-3,
+.navbar-wine-content-4,
+.navbar-wine-content-5,
+.navbar-wine-content-6 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.navbar-wine-content-1:hover,
+.navbar-wine-content-2:hover,
+.navbar-wine-content-3:hover,
+.navbar-wine-content-4:hover,
+.navbar-wine-content-5:hover,
+.navbar-wine-content-6:hover {
+    background-color: white;
+    color: black;
+}
+
+.info {
+    width: 100%;
+    background-color: rgb(195, 195, 195);
+}
+.navbar-km {
+    display: flex;
+    width: 1500px;
+    height: 81px;
+    margin: auto;
+}
+.navbar-km-content {
+    display: flex;
+    margin: auto;
+    color: grey;
+}
+.km-content-icon i {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.km-abow-text {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.km-content-icon img {
+    width: 80px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.text-hpny {
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    text-align: center;
+    font-size: 25px;
+    color: #fcd643;
+    font-weight: 400;
+    margin-top: -100px;
+}
+
+.navbar-hover-c1,
+.navbar-hover-c2 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top: -880px;
+    z-index: 10;
+}
+
+.navbar-hover-c1,
+.navbar-hover-c2 {
+    display: none;
+}
+
+.navbar-hover-1 {
+    margin-top: 40px;
+    margin-left: 30px;
+    border-right: solid 1px;
+    width: 430px;
+    font-size: 25px;
+}
+
+.navbar-hover-2,
+.navbar-hover-3,
+.navbar-hover-4,
+.navbar-hover-5 {
+    margin-top: 40px;
+    margin-left: 20px;
+    border-right: solid 1px;
+    width: 400px;
+    line-height: 40px;
+}
+.hover1-cot1 {
+    width: 400px;
+    margin-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-bottom: solid 1px;
+}
+
+.navbar-wine-content-1:hover,
+.navbar-wine-content-2:hover {
+    cursor: pointer;
+}
+
+.hover1-cot1 a {
+    color: #46012b;
+    font-size: 20px;
+}
+.hover-label {
+    color: #46012b;
+    font-size: 20px;
+}
+
+h5 {
+    width: 380px;
+    margin-top: 18px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border-bottom: solid 1px;
+    padding-left: 0px;
+    margin-bottom: -25px;
+}
+
+.hover-name-wine {
+    color: gray;
+    font-size: 20px;
+}
+
+.intro-info {
+    display: flex;
+    position: relative;
+    width: 1500px;
+    margin: auto;
+    z-index: 20;
+    text-align: center;
+}
+
+.intro-info h3 {
+    color: #fcd643;
+}
+
+.intro-info p {
+    color: white;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+
+.intro-info a {
+    color: #fcd643;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.intro-info img {
+    width: 700px;
+    height: 700px;
+}
+
+.content-body {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    margin-top: 100px;
+}
+.content-header {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: -35px;
+    width: 360px;
+    background-color: white;
+    z-index: 7;
+}
+
+.content-header h3 {
+    margin: auto;
+}
+
+.content-new {
+    display: flex;
+    position: relative;
+    width: 1850px;
+    margin-left: -190px;
+    margin-top: 30px;
+}
+
+.content-new img {
+    width: 700px;
+    height: 700px;
+}
+
+.content-new,
+.content-detail p {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.content-new,
+.content-detail a {
+    color: #46012b;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+.content-detail {
+    display: flex;
+    width: 1850px;
+    margin-left: -190px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content-detail img {
+    height: 800px;
+    width: 360px;
+    margin: 0;
+}
+
+.content-detail div {
+    width: 350px;
+}
+.content-detail p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-other {
+    display: flex;
+    margin: auto;
+    width: 2160px;
+    height: 350px;
+    text-align: center;
+    margin-left: -525px;
+    background-color: rgb(182, 182, 182);
+}
+
+.content-other div {
+    margin: auto;
+}
+
+.content-other h3 {
+    margin-top: -180px;
+}
+.content-product {
+    width: 2160px;
+    margin-left: -525px;
+    background-color: rgb(181, 181, 181);
+}
+.content-product-detail {
+    display: flex;
+    height: 580px;
+    width: 100%;
+    background-color: rgb(210, 210, 210);
+}
+.content-product-detail img {
+    width: 300px;
+}
+
+.content-product-detail .d-flex {
+    display: flex;
+    margin: auto;
+    width: 340px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: white;
+}
+.content-product-detail a {
+    color: #6c0829;
+    font-size: 20px;
+}
+
+.brand {
+    width: 2160px;
+    height: 700px;
+    margin-left: -525px;
+}
+.content-brand,
+.content-brand-1 {
+    display: flex;
+    width: 1500px;
+    margin: auto;
+    text-align: center;
+}
+.content-brand img,
+.content-brand-1 img {
+    width: 220px;
+    border: 10px solid rgba(254, 244, 189, 0.941);
+}
+
+.content-brand .d-flex,
+.content-brand-1 .d-fle {
+    display: flex;
+}
+.content-brand img:hover {
+    border: 10px solid rgba(243, 207, 2, 1);
+}
+.brand button {
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 20px;
+}
+
+.product-champagne {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+    background-color: #46012b;
+    z-index: 2;
+    margin-top: -820px;
+}
+.champagne-introduce-img {
+    display: flex;
+    position: relative;
+    width: 2160px;
+    height: 520px;
+    background: url("https://sanhruou.com/media/1133/contentslider/1133.jpg");
+    background-repeat: no-repeat;
+    background-size: 2160px 480px;
+    top: 0;
+    z-index: 3;
+    margin-top: -800px;
+}
+
+.product-show {
+    display: flex;
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -40px;
+}
+
+.product-champagne-show {
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    text-align: center;
+}
+
+.product-champagne-show img {
+    height: 450px;
+    width: 370px;
+    padding: 20px;
+    margin-left: -20px;
+}
+.product-champagne-show .p-2 {
+    background-color: white;
+}
+
+.product-show-toolbar {
+    position: relative;
+}
+
+.product-filter-left {
+    display: flex;
+    right: 10%;
+}
+.product-show .row {
+    margin-bottom: 90px;
+}
+
+.group-2-product-detail {
+    font-size: 20px;
+}
+
+.group-filter {
+    display: flex;
+    width: 100%;
+}
+
+#group-2 {
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    margin-top: -200px;
+}
+/* Thêm CSS vào file của bạn hoặc trong thẻ <style> trong trang HTML */
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Điều chỉnh chiều cao tùy ý */
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* hoặc "cover" tùy thuộc vào ý muốn */
+}

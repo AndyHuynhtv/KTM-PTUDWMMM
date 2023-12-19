@@ -1,0 +1,29 @@
+@media (min-width: 992px) {
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.product-card {
+    height: 600px;
+}
+
+.product-card .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container .btn {
+    width: 110px;
+}
+
+.card-body h5 {
+    height: 90px;
+}

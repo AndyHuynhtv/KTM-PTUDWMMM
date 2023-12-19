@@ -1,0 +1,60 @@
+/* cart.css */
+
+/* Style cho container chính */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Style cho mỗi sản phẩm trong giỏ hàng */
+.cart-item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.product-detail h3 {
+    margin-top: 0;
+}
+
+.product-detail p {
+    margin-bottom: 5px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+}
+
+.quantity-control button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    margin: 0 5px;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.quantity-control button:hover {
+    background-color: #0056b3;
+}

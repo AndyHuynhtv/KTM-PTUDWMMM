@@ -1,0 +1,61 @@
+.product-detail {
+    margin-top: 20px;
+}
+
+.product-image {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 60px;
+    color: darkred;
+}
+
+.product-detail h3 {
+    margin-top: 0;
+    font-size: 60px;
+    color: darkred;
+}
+
+.product-detail p {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.product-detail button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-detail button:hover {
+    background-color: #2980b9;
+}
+
+.product-show {
+    /* background-image: url('https://sanhruou.com/media/14868/pagebuilder/tet-2024-dragon-bg.png?gidzl=q66eQMwTm2dMVg1iRO70BTHufcTnqCSjmokWPYxVnd2L8Q5Z9zJ4TSujeZyXWSTudYtrF6IBpL5oQPhAAG"'); */
+    background: url("/public/template/admin/dist/img/images/background-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    margin-top: -800px;
+}
+
+.product-show-detail {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.product-show-detail .container {
+    opacity: 1;
+}
